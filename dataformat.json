@@ -1,0 +1,38 @@
+// JSON data
+
+{
+    "cmd" : "set", // get
+    "type": "control", // "config"
+    "s1": -120,
+    "s2": 127,
+    "m1": 0,
+    "m2": 30
+
+};
+
+{
+    "cmd" : "set",
+    "type": "config",
+    "S1" : "servo", // digit, anlog
+    "S2": "servo" // digit, anlog
+}
+
+// get config
+{
+    "S1": {
+        "type": "SERVO",
+        "value" : 123
+    },
+    "S2": {
+        "type": "ANLOG", // DIGIT, NOUSE
+        "value" : 123
+    },
+    "M1": {
+        "type": "MOTOR",
+        "value" : 123
+    },
+    "M2": {
+        "type": "MOTOR",
+        "value" : 123
+    },
+}
